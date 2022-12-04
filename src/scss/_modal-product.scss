@@ -1,0 +1,47 @@
+.modal-product {
+    &__container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 120%;
+        margin-bottom: 12px;
+    }
+    &__image {
+        border-radius: 16px;
+        margin-bottom: 16px;
+    }
+    &__content {
+        margin-bottom: 10px;
+    }
+    &__description {
+        font-size: 12px;
+        line-height: 130%;
+        margin-bottom: 10px;
+    }
+    &__ingredients {
+        flex-grow: 1;
+    }
+    &__add {
+        display: flex;
+        margin-bottom: 16px;
+    }
+    &__btn {
+        flex-grow: 1;
+        padding: 9px;
+        margin-right: 8px;
+        background: #FF7020;
+        border-radius: 8px;
+        font-size: 12px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+    &__price {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+        text-align: right;
+    }
+}

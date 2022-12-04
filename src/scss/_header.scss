@@ -1,0 +1,32 @@
+.header {
+    padding: 24px 0 30px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='288' height='288' viewBox='0 0 288 288' fill='none'%3E%3Ccircle cx='144' cy='144' r='144' fill='%23FFAB08' /%3E%3C/svg%3E") bottom/611px no-repeat;
+    margin-bottom: 30px;
+    &__logo {
+        display: block;
+        width: 150px;
+        color: #fff;
+        margin: 0 auto 24px;
+    }
+    &__title-container {
+        padding-bottom: 248px;
+        background: url('../img/pic.svg') bottom/227px no-repeat;
+        text-align: center;
+    }
+    &__title {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 120%;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+    &__title-red {
+        display: block;
+        color: #FF5C00;
+    }
+    &__appeal {
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF; 
+    }
+}

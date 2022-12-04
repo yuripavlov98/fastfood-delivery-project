@@ -1,0 +1,24 @@
+.ingredients {
+    &__title {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 130%;
+        margin-bottom: 4px;
+    }
+    &__list {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 130%;
+        margin-bottom: 4px;
+    }
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: 2px;
+        }
+    }
+    &__calories {
+        font-size: 10px;
+        line-height: 130%;
+        color: #B1B1B1;
+    }
+}

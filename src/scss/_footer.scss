@@ -1,0 +1,42 @@
+.footer {
+    padding: 24px 0;
+    background-color: #fff;
+    &__content {
+        margin-bottom: 36px;
+        display: grid;
+        gap: 24px; 
+    }
+    &__logo {
+        display: block;
+        line-height: 0;
+        color: #FF7020;
+        width: 196px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        line-height: 100%;
+        margin-bottom: 8px;
+    }
+    &__link-phone {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    &__list {
+        display: flex;
+        gap: 16px;
+    }
+    &__link-sn {
+        display: block;
+        line-height: 0;
+        color: #FF7020;
+    }
+    &__development {
+        font-size: 12px;
+    }
+    &__copyright {
+        margin-bottom: 4px;
+    }
+}
